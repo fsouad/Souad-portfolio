@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .box {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .card {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  @media (max-width: 600px) {
+    .box { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<div class="box">
+  <div class="card">خدمة 1</div>
+  <div class="card">خدمة 2</div>
+  <div class="card">خدمة 3</div>
+</div>
+
+</body>
+</html>
