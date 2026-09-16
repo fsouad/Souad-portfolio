@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Positivus - Digital Marketing Agency</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Space Grotesk',sans-serif;background:#fff;color:#000;line-height:1.5}
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+header{display:flex;justify-content:space-between;align-items:center;padding:30px 0}
+.logo{font-size:28px;font-weight:700;display:flex;align-items:center;gap:8px}
+.logo::before{content:"✦";font-size:32px}
+nav{display:flex;gap:30px;align-items:center}
+nav a{text-decoration:none;color:#000;font-weight:500}
+.btn-dark{background:#000;color:#fff;padding:12px 28px;border-radius:14px;text-decoration:none;font-weight:500;display:inline-block}
+.btn-green{background:#B9FF66;color:#000;padding:12px 28px;border-radius:14px;text-decoration:none;font-weight:600;display:inline-block;border:2px solid #000}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;padding:60px 0}
+.hero h1{font-size:56px;line-height:1.1;font-weight:700;margin-bottom:20px}
+.hero p{font-size:18px;color:#333;margin-bottom:30px}
+.hero-img{background:#f3f3f3;border-radius:30px;height:400px;display:flex;align-items:center;justify-content:center;font-size:80px;border:3px solid #000}
+.logos{display:flex;justify-content:space-between;align-items:center;padding:40px 0;flex-wrap:wrap;gap:20px;filter:grayscale(1);opacity:0.6}
+.section-title{display:flex;gap:30px;align-items:center;margin:80px 0 50px}
+.section-title h2{background:#B9FF66;padding:8px 16px;border-radius:8px;font-size:36px}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.card{border:2px solid #000;border-radius:45px;padding:40px;display:grid;grid-template-columns:1fr 1fr;gap:20px;min-height:280px;box-shadow:0 5px 0 #000}
+.card.grey{background:#F3F3F3}
+.card.green{background:#B9FF66}
+.card.black{background:#000;color:#fff}
+.card h3{font-size:26px;line-height:1.2;margin-bottom:10px}
+.card h3 span{display:inline;padding:2px 8px;border-radius:6px}
+.card.grey h3 span{background:#B9FF66;color:#000}
+.card.green h3 span{background:#fff;color:#000}
+.card.black h3 span{background:#fff;color:#000}
+.learn{display:flex;align-items:center;gap:10px;margin-top:20px;font-weight:500;text-decoration:none;color:inherit}
+.learn::before{content:"→";background:#000;color:#B9FF66;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.card.black .learn::before{background:#fff;color:#000}
+.card-icon{font-size:80px;text-align:right}
+.cta{background:#F3F3F3;border-radius:45px;padding:50px;display:grid;grid-template-columns:1.2fr 0.8fr;gap:40px;align-items:center;margin:80px 0}
+.cta h3{font-size:30px;margin-bottom:20px}
+@media(max-width:768px){
+.hero{grid-template-columns:1fr;text-align:center}
+.hero h1{font-size:38px}
+.cards{grid-template-columns:1fr}
+.cta{grid-template-columns:1fr}
+nav{display:none}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<div class="logo">Positivus</div>
+<nav>
+<a href="#">About us</a>
+<a href="#">Services</a>
+<a href="#">Use Cases</a>
+<a href="#">Pricing</a>
+<a href="#">Blog</a>
+<a href="#" class="btn-dark">Request a quote</a>
+</nav>
+</header>
+
+<section class="hero">
+<div>
+<h1>Navigating the digital landscape for success</h1>
+<p>Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+<a href="#" class="btn-dark">Book a consultation</a>
+</div>
+<div class="hero-img">📢</div>
+</section>
+
+<div class="logos">
+<span>Amazon</span><span>Dribbble</span><span>HubSpot</span><span>Notion</span><span>Netflix</span><span>Zoom</span>
+</div>
+
+<div class="section-title">
+<h2>Services</h2>
+<p style="max-width:500px">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+</div>
+
+<div class="cards">
+<div class="card grey">
+<div>
+<h3><span>Search engine</span><br><span>optimization</span></h3>
+<a href="#" class="learn">Learn more</a>
+</div>
+<div class="card-icon">🔍</div>
+</div>
+
+<div class="card green">
+<div>
+<h3><span>Pay-per-click</span><br><span>advertising</span></h3>
+<a href="#" class="learn">Learn more</a>
+</div>
+<div class="card-icon">👆</div>
+</div>
+
+<div class="card black">
+<div>
+<h3><span>Social Media</span><br><span>Marketing</span></h3>
+<a href="#" class="learn" style="color:#fff">Learn more</a>
+</div>
+<div class="card-icon">💬</div>
+</div>
+
+<div class="card grey">
+<div>
+<h3><span>Email</span><br><span>Marketing</span></h3>
+<a href="#" class="learn">Learn more</a>
+</div>
+<div class="card-icon">📧</div>
+</div>
+</div>
+
+<div class="cta">
+<div>
+<h3>Let's make things happen</h3>
+<p>Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
+<br>
+<a href="#" class="btn-dark">Get your free proposal</a>
+</div>
+<div style="text-align:center;font-size:100px">⭐</div>
+</div>
+
+<p style="text-align:center;padding:40px;color:#888">✅ Coded by Souad - PSD to HTML Project #1 - Inspired by Positivus Figma Template</p>
+</div>
+</body>
+</html>
